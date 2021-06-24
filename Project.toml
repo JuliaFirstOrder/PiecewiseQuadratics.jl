@@ -1,0 +1,17 @@
+name = "PiecewiseQuadratics"
+uuid = "63c5698c-79a9-4248-aa10-bd2a91651b58"
+authors = ["Nicholas Moehle", "Ellis Brown", "Mykel J. Kochenderfer"]
+version = "0.1.0"
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[targets]
+test = ["Test", "Documenter"]
