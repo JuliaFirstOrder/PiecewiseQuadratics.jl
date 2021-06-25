@@ -18,7 +18,7 @@ Open an issue. Please include descriptions of the following:
 
 ## Contributing code
 
-In general, this project follows Rust project conventions. Please make sure
+In general, this project follows Julia project conventions. Please make sure
 you've linted, formatted, and run your tests before submitting a patch.
 
 ## Contribute a Bug Fix
