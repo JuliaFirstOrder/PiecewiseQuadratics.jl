@@ -653,13 +653,16 @@ function _intersect(f_list::Vector{BoundedQuadratic})
     return dom, is_valid
 end
 
+
+# TODO: the following example code fails as a doctest with Julia 1.0...
+# it appears that the output of `Vector{T}` displays as `Array{T,1}` instead
 """
     intersect(f_list::Vector{BoundedQuadratic})
 
 Intersect the domains of a list of BoundedQuadratics if possible.
 
 # Example
-```jldoctest
+```julia
 julia> f_list = [BoundedQuadratic(-100, 100, 1, 1, 1),
           BoundedQuadratic(-50, 25, 1, 1, 1),
           BoundedQuadratic(0, 50, 1, 1, 1)]
