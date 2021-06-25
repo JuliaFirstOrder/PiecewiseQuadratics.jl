@@ -693,7 +693,7 @@ function get_plot(f::PiecewiseQuadratic; N::Int64=1000)
     end
     x_min -= 1 * span
     x_max += 1 * span
-    x = vcat(range(x_min, x_max; length=N), x)
+    x = vcat(range(x_min; stop=x_max, length=N), x)
     x = sort(x)
     x = [x0 for (x0, x1) in zip(x[1:(end - 1)], x[2:end]) if x0 != x1]
     y = f.(x)

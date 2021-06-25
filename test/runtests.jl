@@ -21,13 +21,7 @@ using Test
 @testset "Doctests" begin
     DocMeta.setdocmeta!(PiecewiseQuadratics, :DocTestSetup, :(using PiecewiseQuadratics);
                         recursive=true)
-    #= TODO: doctests fail with Julia 1.0...
-    1. it appears that the output of `Vector{T}` displays as `Array{T,1}` instead
-        this causes intersect(f_list::Vector{BoundedQuadratic}) to fail
-    2. MethodError: no method matching range(::Float64, ::Float64; length=10)
-        this causes get_plot(f::PiecewiseQuadratic; N::Int64=1000) to fail
-    =#
-    @test_skip doctest(PiecewiseQuadratics)
+    doctest(PiecewiseQuadratics)
 end
 
 @testset "Intervals" begin
