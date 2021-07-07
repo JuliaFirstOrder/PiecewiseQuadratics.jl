@@ -15,7 +15,7 @@ jobs:
           version: '1'
       - uses: actions/checkout@v1
       - name: Install JuliaFormatter and format
-        shell: julia --coloer=yes {0}
+        shell: julia --color=yes {0}
         run: |
           using Pkg
           Pkg.add(PackageSpec(name="JuliaFormatter"))
