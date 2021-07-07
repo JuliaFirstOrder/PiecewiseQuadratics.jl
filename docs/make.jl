@@ -25,6 +25,7 @@ DocMeta.setdocmeta!(PiecewiseQuadratics, :DocTestSetup, :(using PiecewiseQuadrat
 makedocs(
     sitename = "PiecewiseQuadratics.jl",
     authors = "Nick Moehle, Ellis Brown, Mykel Kochenderfer",
+    repo = "github.com/JuliaFirstOrder/PiecewiseQuadratics.jl.git",
     modules = [PiecewiseQuadratics],
     format = Documenter.HTML(prettyurls = get(ENV, "CI", nothing) == "true"),
     pages = [

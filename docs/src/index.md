@@ -34,7 +34,7 @@ We specify
 ```math
 f(x) = \left\{\begin{array}{ll}
   x^2 - 3x - 3 & \text{if } x \in [-\infty, 3]\\
-  x + 3 & \text{if } x \in [3, 4]\\
+  -x + 3 & \text{if } x \in [3, 4]\\
   2x^2 - 20x + 47 & \text{if } x \in [4, 6]\\
   x - 7 & \text{if } x \in [6, 7.5]\\
   4x - 29 & \text{if } x \in [7.5, \infty]\\
@@ -58,8 +58,8 @@ f = PiecewiseQuadratic([
 We can visualize the function using [`get_plot`](@ref) and any common plotting library.
 ```@example 1
 using Plots
-plot(get_plot(f); grid=false, linestyle=:dash, color=:black, label="piece-wise quadratic")
-plot!(get_plot(simplify(envelope(f))); color=:blue, la=0.5, label="envelope", xlims = (-2, 10), ylims = (-4, 18))
+plot(get_plot(f); grid=false, color=:black, label="piece-wise quadratic")
+plot!(get_plot(simplify(envelope(f))); linestyle=:dash, color=:blue, la=0.5, label="envelope", xlims = (-2, 10), ylims = (-4, 18))
 savefig("plot.svg"); nothing # hide
 ```
 

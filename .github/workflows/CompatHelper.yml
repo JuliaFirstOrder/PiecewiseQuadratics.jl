@@ -7,14 +7,15 @@ jobs:
   CompatHelper:
     runs-on: ubuntu-latest
     steps:
-      - name: "Install CompatHelper"
+      - uses: julia-actions/setup-julia@latest
+        with:
+          version: '1.6'
+      - name: Install CompatHelper
         run: julia -e 'using Pkg; Pkg.add("CompatHelper")'
-        shell: julia --color=yes {0}
-      - name: "Run CompatHelper"
+      - name: Run CompatHelper
         run: |
-          import CompatHelper
+          using CompatHelper
           CompatHelper.main()
         shell: julia --color=yes {0}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COMPATHELPER_PRIV: ${{ secrets.DOCUMENTER_KEY }}
