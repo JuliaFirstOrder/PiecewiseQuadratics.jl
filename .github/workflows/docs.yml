@@ -4,9 +4,10 @@ on:
     branches: [main]
     tags: [v*]
   pull_request:
-
+  workflow_dispatch:
 jobs:
   build:
+    name: Documentation
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
