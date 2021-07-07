@@ -1,5 +1,11 @@
 # PiecewiseQuadratics.jl
 
+[![Build status](https://github.com/JuliaFirstOrder/PiecewiseQuadratics.jl/workflows/CI/badge.svg?branch=master)](https://github.com/JuliaFirstOrder/PiecewiseQuadratics.jl/actions?query=workflow%3ACI+branch%3Amain)
+[![codecov](https://codecov.io/gh/JuliaFirstOrder/PiecewiseQuadratics.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/JuliaFirstOrder/PiecewiseQuadratics.jl)
+
+[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliafirstorder.github.io/PiecewiseQuadratics.jl/stable)
+[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://juliafirstorder.github.io/PiecewiseQuadratics.jl/latest)
+
 **PiecewiseQuadratics.jl** is a [Julia](http://julialang.org) package for manipulation of univariate piecewise quadratic functions of the form
 ```
 f(x) = p x² + q x + r, ∀ x ∈ [lb, ub]

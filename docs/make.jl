@@ -33,3 +33,7 @@ makedocs(
         "api.md"
     ]
 )
+
+deploydocs(;
+    repo = "github.com/JuliaFirstOrder/PiecewiseQuadratics.jl.git",
+)
