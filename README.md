@@ -4,7 +4,7 @@
 [![codecov](https://codecov.io/gh/JuliaFirstOrder/PiecewiseQuadratics.jl/branch/main/graph/badge.svg?token=DwCCsdwIgc)](https://codecov.io/gh/JuliaFirstOrder/PiecewiseQuadratics.jl)
 
 [![](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliafirstorder.github.io/PiecewiseQuadratics.jl/stable)
-[![](https://img.shields.io/badge/docs-latest-blue.svg)](https://juliafirstorder.github.io/PiecewiseQuadratics.jl/latest)
+[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://juliafirstorder.github.io/PiecewiseQuadratics.jl/dev)
 
 **PiecewiseQuadratics.jl** is a [Julia](http://julialang.org) package for manipulation of univariate piecewise quadratic functions of the form
 ```
