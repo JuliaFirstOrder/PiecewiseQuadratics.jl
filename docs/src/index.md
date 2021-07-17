@@ -67,7 +67,7 @@ savefig("plot.svg"); nothing # hide
 
 
 ## Authors
-This package and [LCSO.jl](https://github.com/JuliaFirstOrder/LCSO.jl) were originally developed by [Nicholas Moehle](https://www.nicholasmoehle.com/), [Ellis Brown](http://ellisbrown.github.io), and [Mykel Kochenderfer](https://mykel.kochenderfer.com/) at BlackRock AI Labs.  They were developed to produce the results in the following paper: [arXiv:2103.05455](https://arxiv.org/abs/2103.05455).
+This package and [SeparableOptimization.jl](https://github.com/JuliaFirstOrder/SeparableOptimization.jl) were originally developed by [Nicholas Moehle](https://www.nicholasmoehle.com/), [Ellis Brown](http://ellisbrown.github.io), and [Mykel Kochenderfer](https://mykel.kochenderfer.com/) at BlackRock AI Labs.  They were developed to produce the results in the following paper: [arXiv:2103.05455](https://arxiv.org/abs/2103.05455).
 
 
 ## Reference
