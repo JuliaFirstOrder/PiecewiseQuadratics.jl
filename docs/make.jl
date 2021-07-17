@@ -37,4 +37,5 @@ makedocs(
 deploydocs(;
     repo = "github.com/JuliaFirstOrder/PiecewiseQuadratics.jl.git",
     devbranch = "main",
+    push_preview = true,
 )
