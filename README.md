@@ -1,6 +1,6 @@
 # PiecewiseQuadratics.jl
 
-[![Build status](https://github.com/JuliaFirstOrder/PiecewiseQuadratics.jl/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/JuliaFirstOrder/PiecewiseQuadratics.jl/actions?query=workflow%3ACI+branch%3Amain)
+[![CI](https://github.com/JuliaFirstOrder/PiecewiseQuadratics.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/JuliaFirstOrder/PiecewiseQuadratics.jl/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/JuliaFirstOrder/PiecewiseQuadratics.jl/branch/main/graph/badge.svg?token=DwCCsdwIgc)](https://codecov.io/gh/JuliaFirstOrder/PiecewiseQuadratics.jl)
 
 [![](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliafirstorder.github.io/PiecewiseQuadratics.jl/stable)
